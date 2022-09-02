@@ -12,12 +12,12 @@ export default function About() {
             <h2 className="info--title">Interlake Senior</h2>
             <h3 className="info--website">joshuayin.website</h3>
             <div className="info--buttons">
-            <a href="mailto:joshjyin@email.com">
+            <a href="mailto:joshjyin@email.com" target="_blank">
                 <button className="info--email">
                     <img src={email_icon} /><h1>Email</h1>
                 </button>
             </a>
-            <a href="https://www.linkedin.com/in/joshua-yin-a01544231/">
+            <a href="https://www.linkedin.com/in/joshua-yin-a01544231/" target="_blank">
                 <button className="info--linkedin">
                     <img src={linkedin_icon} /><h1>LinkedIn</h1>
                 </button>
